@@ -150,7 +150,6 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.5em;
-		letter-spacing: 0.1em;
 		font-family: 'Play', sans-serif;
 		font-weight: 600;
 		color:black;
@@ -2016,6 +2015,7 @@ input, select, textarea {
 
 		ol li {
 			padding-left: 0.25em;
+			font-weight: 400
 		}
 
 	ul {
@@ -2149,7 +2149,8 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		background: none;
-		border: solid 1px;
+		border: solid 5px;
+		border-color: white;
 		border-radius: 0;
 		color: inherit;
 		cursor: pointer;
@@ -2163,8 +2164,7 @@ input, select, textarea {
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
-		background-image: url("images/flow2.png");
-		background-size: cover;
+		background-color: yellow;
 
 	}
 
@@ -2182,8 +2182,8 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background: yellow;
-			border-color: black;
-			border-width: 4px;
+			border-color: white !important;
+			border-width: 5px !important;
 			color: black !important;
 		}
 
@@ -2202,8 +2202,7 @@ input, select, textarea {
 		button.fit,
 		.button.fit {
 			width: 100%;
-			background-image: url("images/flow2.png");
-			background-size: cover;
+			background-color:yellow;
 		}
 
 		input[type="button"].small,
@@ -2370,7 +2369,7 @@ input, select, textarea {
 						font-size: 1.2em;
 						padding: 0.6em 0.75em;
 						text-decoration: none;
-						color:white;
+						color:black;
 					}
 
 					#header nav ul li input[type="button"],
@@ -2378,7 +2377,7 @@ input, select, textarea {
 					#header nav ul li input[type="reset"],
 					#header nav ul li button,
 					#header nav ul li .button {
-						font-size: 1em;
+						font-size: 1.2em;
 						min-width: 0;
 						width: auto;
 					}
@@ -2612,8 +2611,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-image: url("images/flow.png");
-		background-repeat: no-repeat;
+		background-color: white;
 		  background-size: cover;
 		padding: 7em 0;
 	}
